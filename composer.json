@@ -1,0 +1,66 @@
+{
+    "name": "sdailover/yii2-phpsessconnector",
+    "description": "The SDaiLover PHP Session Connector extension for the Yii framework",
+    "keywords": [
+        "sdailover",
+        "yii2",
+        "phpsessconnector",
+        "active-record",
+        "connection"
+    ],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "homepage": "https://www.sdailover.com/",
+        "issues": "https://github.com/sdailover/yii2-phpsessconnector/issues",
+        "source": "https://github.com/sdailover/yii2-phpsessconnector"
+    },
+    "authors": [
+        {
+            "name": "Stephanus Bagus Saputra ( 戴 Dai 偉 Wie 峯 Funk )",
+            "email": "wiefunk@stephanusdai.web.id",
+            "homepage": "https://stephanusdai.web.id/"
+        }
+    ],
+    "funding": [
+        {
+            "type": "patreon",
+            "url": "https://www.patreon.com/sdailover"
+        },
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/sdailover"
+        },
+        {
+            "type": "opencollective",
+            "url": "https://opencollective.com/sdailover"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0",
+        "ext-json": "*",
+        "yiisoft/yii2": "^2.0.42"
+    },
+    "require-dev": {
+        "cweagans/composer-patches": "^1.7",
+        "yiisoft/yii2-coding-standards": "~2.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "cweagans/composer-patches": true,
+            "yiisoft/yii2-composer": true
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "sdailover\\yii\\phpsessconnector\\": "src"
+        }
+    }
+}
